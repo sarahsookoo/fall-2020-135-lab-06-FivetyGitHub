@@ -1,27 +1,27 @@
 * Fall 2020 - Lab 06
 
-* Last name:
+* Last name:Lam
 
-* First name:
+* First name:Damon
 
-* GitHub username:
+* GitHub username:FivetyGitHub
 
 * Notes:
 
 
-  
+
 * General instructions:
 - Fill in your name and GitHub username on top.
 - Use the Notes section to add any notes to the instructor.
 - The main lab description can be found here:
-  https://maryash.github.io/135/labs/lab_06.html 
+  https://maryash.github.io/135/labs/lab_06.html
 
 
 * Specific instructions for lab 05
 
 This lab requires that you implement doctest based tests. There is
 already a skeleton ~Makefile~ with targets for ~main~ and ~tests~ as
-well as skeleton ~.c~ ~.h~ and ~doctest.h~ files. 
+well as skeleton ~.c~ ~.h~ and ~doctest.h~ files.
 
 ** Task A
 
@@ -30,11 +30,11 @@ well as skeleton ~.c~ ~.h~ and ~doctest.h~ files.
   main and *should not* be tested via doctest from ~tests.cpp~.
 
 ** Task B
-   
+
 Add files ~caesar,cpp~ and ~caesar.h~ to your program. In them, write
 the two functions specified in the main lab.
 
-*These two functions should be tested via doctest form tests.cpp*. 
+*These two functions should be tested via doctest form tests.cpp*.
 
 ** Task C
 
@@ -71,6 +71,3 @@ For reference, the doctest package and documentation can be found
 *Note:* Remember that your program (including tests) should not ask
  for any keyboard input. When run it should clearly show that all
  tasks are implemented and work.
-
-
-
