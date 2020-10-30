@@ -4,6 +4,7 @@
 #include "caesar.h"
 #include "vigenere.h"
 #include "decrypt.h"
+#include "decode.h"
 // add your tests here
 
 TEST_CASE("shiftChar"){
@@ -35,4 +36,9 @@ TEST_CASE("decryptVigenere"){
   CHECK(decryptVigenere("Bgggshmfh xs smp ofpar dbaw gg ezabxmgo, xlwsi mk os asz e fwf wlgvph tf efdf xs xmc.","bees")=="According to all known laws of aviation, there is no way a bee should be able to fly.");
   CHECK(decryptVigenere("Vyc fnqkm spdpv nqo hjfxa qmcg eiha umvl.","cryptii")=="The quick brown fox jumps over lazy dogs.");
 
+}
+
+TEST_CASE("decode"){
+  CHECK(decode("Hjjvykpun av hss ruvdu shdz vm hcphapvu, aolyl pz uv dhf h ill zovbsk il hisl av msf.")=="According to all known laws of aviation, there is no way a bee should be able to fly.");
+  CHECK(decode("Qba'g yrg lbhe qernzf or qernzf. Lrfgreqnl lbh fnvq gbzbeebj. Fb whfg qb vg. Znxr lbhe qernzf pbzr gehr. Whfg qb vg. Fbzr crbcyr qernz bs fhpprff. Juvyr lbh'er tbaan jnxr hc naq jbex uneq ng vg. Abguvat vf vzcbffvoyr. Lbh fubhyq trg gb gur")=="Don't let your dreams be dreams. Yesterday you said tomorrow. So just do it. Make your dreams come true. Just do it. Some people dream of success. While you're gonna wake up and work hard at it. Nothing is impossible. You should get to the");
 }
